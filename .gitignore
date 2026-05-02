@@ -7,11 +7,9 @@ dist/
 build/
 /quasar-frontend/dist/
 
-# Quasar specific
+# Cache directories
+.cache/
 .quasar/
-
-# Logs
-*.log
 
 # Environment variables
 .env
@@ -23,35 +21,15 @@ build/
 .idea/
 *.swp
 *.swo
+
+# Logs
+*.log
+
+# Temporary files
 *.tmp
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Python artifacts (if any Python files exist in the project)
+# Python cache (if any Python files exist in the project)
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Testing
-.mypy_cache/
-.pytest_cache/
-.nyc_output/
-coverage/
-
-# Distribution / packaging
-*.tar.gz
-*.whl
-*.egg-info/
-
-# Local development
-.DS_Store
-*.local
 ```
