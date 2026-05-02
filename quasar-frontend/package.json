@@ -1,0 +1,42 @@
+{
+  "name": "vacational-saas-frontend",
+  "version": "1.0.0",
+  "description": "Frontend Multitenant para Gestión de Alquiler Vacacional",
+  "productName": "Vacational SaaS",
+  "author": "Tu Nombre <tu@email.com>",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.9",
+    "axios": "^1.6.0",
+    "pinia": "^2.1.7",
+    "quasar": "^2.18.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0",
+    "fullcalendar": "^6.1.10",
+    "@fullcalendar/vue3": "^6.1.10",
+    "@fullcalendar/daygrid": "^6.1.10",
+    "@fullcalendar/timegrid": "^6.1.10",
+    "@fullcalendar/interaction": "^6.1.10"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.8.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-vue": "^9.22.0",
+    "prettier": "^2.8.8",
+    "vite": "^5.1.0"
+  },
+  "engines": {
+    "node": "^18 || ^19 || ^20 || ^21",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
