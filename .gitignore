@@ -1,0 +1,35 @@
+```
+# Laravel-specific ignores
+vendor/
+composer.lock
+.env
+.env.*
+!.env.example
+
+# Build and cache directories
+bootstrap/cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/
+
+# Compiled files
+*.php~
+*.bak
+
+# Testing
+.phpunit.result.cache
+```
